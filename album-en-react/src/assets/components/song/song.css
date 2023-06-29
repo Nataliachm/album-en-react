@@ -1,0 +1,67 @@
+/*font-family: 'Roboto', sans-serif;*/
+
+.container__album {
+    display: flex;
+    gap: 20px;
+    width: 490px;
+    height: 230px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: grey;
+
+}
+
+.container__album-image {
+    width: 40%;
+    object-fit: cover;
+}
+
+.container__album-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+    margin: 20px;
+
+}
+
+.container__album-nameSong {
+    margin: 0;
+    color: black;
+
+}
+
+.container__album-artist {
+    margin: 0;
+    font-style: italic;
+
+}
+
+.container__album-name {
+    margin: 20px 0 0;
+}
+
+.container__icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__album-year {
+    margin: 0 0 20px;
+
+}
+
+.container__album-gender {
+    align-self: flex-end;
+    padding: 0.5rem;
+    border-radius: 20%;
+    color: black;
+    background-color: rosybrown;
+
+}
+
+.heart-button {
+    color: white;
+}
